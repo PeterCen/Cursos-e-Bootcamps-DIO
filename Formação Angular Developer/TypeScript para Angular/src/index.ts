@@ -1,19 +1,6 @@
-//Esse documento serve para desenvolver, mas oque iremos executar será
-//o documento index.js, com o comando de tradução :npx tsc src/index.ts
-//E rodando ele com: node src/index.ts
+let ligado: boolean = false;
+let nome: string = "Pedro";
+let idade: number = 21;
+let altura: number = 1.75;
 
-type heroi={
-    name: string;
-    vulgo: string;
-};
-
-function printaObjetos(pessoa: heroi){
-    console.log(pessoa);
-}
-
-printaObjetos({
-    name: "Bruce Wayne",
-    vulgo: "Batman"
-})
-
-console.log("Olá Mundo!");
+let nulo: null = null;
